@@ -18,36 +18,59 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Custom styles for this template -->
-  <link href="css/jumbotron.css" rel="stylesheet">
+  <link href="css/jumbotron.css" rel="stylesheet"/>
+  
+  <!-- CSS file for social media icons -->
+  <link href="css/boostrap-social.css" rel="stylesheet"/>
+  
+  <link href="css/font-awesome/fontawesome-all.css" rel="stylesheet"/>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+ 
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#cmbNavbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+		  <a class="navbar-brand" href="#">
+			<img src="#"></img> <!-- Use favicon as homepage icon -->
+		  </a>
+		  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/claremayball2018">
+          	   	<span class="fa-facebook"></span>
+          </a>
+          <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/mayballclare">
+          		<span class="fa-twitter"></span>
+          </a>
+          <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/claremayball2018">
+          		<span class="fa-instagram"></span>
+          </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+		<div class="collapse navbar-collapse" id = "cmbNavbar">
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">CMB 2018</a></li>
+						<li><a href="#">Committee</a></li>
+						<li><a href="#">Workers</a></li>
+						<li><a href="#">Ents</a></li>
+					</ul>
+				</li>
+				<li><a href = "#">Ticketing</a></li>
+				<li><a href = "#">Legal</a></li>
+				<li><a href = "#">Contact</a></li>
+			</ul>
+		</div>
       </div>
     </nav>
 
