@@ -139,6 +139,7 @@ body {
 
   .row {
     margin: 0 auto;
+    width: 750px;
   }
 }
 
