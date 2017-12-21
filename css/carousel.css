@@ -11,6 +11,7 @@ body {
 }
 
 
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -96,6 +97,10 @@ body {
 -------------------------------------------------*/
 .holding-box-title {
   margin-bottom: 20px;
+}
+
+.navbar-header {
+  width: 100;
 }
 
 
