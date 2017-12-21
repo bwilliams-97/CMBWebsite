@@ -41,8 +41,9 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: auto;
-  min-height: 500px;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .carousel-inner > .item > video {
