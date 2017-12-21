@@ -92,6 +92,12 @@ body {
   letter-spacing: -1px;
 }
 
+/* COMMITTEE SECTION
+-------------------------------------------------*/
+.holding-box-title {
+  margin-bottom: 20px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
