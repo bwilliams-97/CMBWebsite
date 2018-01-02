@@ -106,7 +106,8 @@ body {
 
 /* COMMITTEE SECTION
 -------------------------------------------------*/
-.holding-box-title {
+.holding-box-title.row {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
