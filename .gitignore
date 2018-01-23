@@ -1,0 +1,9 @@
+env_launch/*
+*.DS_Store
+*.pyc
+__pycache__
+*.settings.py
+/launchsite/static/*
+/launchsite/launchsite/settings.py
+/launchsite/launchsite/wsgi.py
+*.sqlite3

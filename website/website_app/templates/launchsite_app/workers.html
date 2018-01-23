@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="en">
+{% load static %}
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Clare May Ball</title>
+  <meta name="description" content="Clare May Ball">
+  <meta name="author" content="Clare May Ball Committee 2018">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <!-- Latest compiled and minified bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled boostrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Latest font-awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/></script>
+
+   <!-- CSS file for social media icons -->
+  <link href="{% static 'launchsite_app/css/bootstrap-social.css' %}" rel="stylesheet"/>
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'launchsite_app/css/jumbotron.css' %}" rel="stylesheet"/>
+  <link href="{% static 'launchsite_app/css/carousel.css' %}" rel="stylesheet"/>
+
+  <script src="js/ie-emulation-modes-warning.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+  <style>
+	.featurette-heading{
+		margin:0;
+	}
+  </style>
+</head>
+
+<body>
+	<!-- Navigation bar
+  ================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container navbar-wrapper">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#cmbNavbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="navbar-brand" href="/">
+			<img src="{% static 'launchsite_app/img/logo.png' %}"></img> <!-- homepage icon -->
+		  </a>
+		  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/claremayball2018">
+        <span class="fa fa-facebook"></span>
+      </a>
+      <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/claremayball2018">
+        <span class="fa fa-instagram"></span>
+      </a>
+      </div>
+		<div class="collapse navbar-collapse" id = "cmbNavbar">
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+                        <li><a href="/#launch">Launch Party</a></li>
+						<li><a href="/#history">CMB 2018</a></li>
+                        <li><a href="/#infocols">Tickets</a><li>
+                        <li><a href="/#infocols">Ents</a></li>
+                        <li><a href="/#infocols">Workers</a></li>
+                        <li><a href="/#lastyear">CMB 2017</a></li>
+                        <li><a href="/#sponsorship">Sponsorship</a></li>
+						<li><a href="/#committee">Committee</a></li>
+
+					</ul>
+				</li>
+				<li><a href="{% static 'launchsite_app/assets/legal.pdf' %}">Legal</a></li>
+				<li><a href = "/contact">Contact</a></li>
+			</ul>
+		</div>
+    </div>
+    </nav>
+    
+   <hr class="featurette-divider">
+   
+   <div class="container-fluid marketing">
+    <div class="holding-box">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Clare May Ball Worker Applications </h2>
+            <br>
+            <p class="lead">Applications to work at Clare May Ball 2018 are open until 31st January!</p>
+            <p class="lead">Interviews will be taking place in Lent term</p>
+            <p><a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSfGlbNAW3vckk-lhJTfflkxPAyxjuj6-5haUq9IpPbP994mLg/viewform" role="button">Apply &raquo;</a></p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="{% static 'launchsite_app/img/doughnuts.png' %}" alt="Doughnuts">
+          </div>
+        </div>
+      </div>
+    </div> <!-- container-fluid marketing -->
+        
+    <div class="container job-descriptions">
+      <h1>Job Descriptions</h1>
+      <div class="row is-table-row">
+        <div class="col-md-4 worker-info">
+          <h2>Area Coordinator <small>£110</small></h2>
+          <p>You will be responsible for the running of an allocated area of the May Ball on the night, including managing the workers within it. You will also be working closely with the committee to ensure that every aspect of the ball is running smoothly.
+            You will need to be able to think on your feet, be organised and enjoy managing and working with other people. Experience working at previous May Balls is highly desirable, preferably in supervisory or committee roles.</p>
+          <h4>Hours: 6:30pm-6:30am</h4>
+
+        </div>
+        <div class="col-md-4 worker-info">
+          <h2>Stage Manager <small>£85</small></h2>
+          <p>You will manage your designated stage throughout the night by ensuring that act changeovers are quick and efficient, that the timetable is adhered to and that headliner requirements are met. You will be managing the Ents Runners working backstage to aid these processes. Previous experience is highly desirable.</p>
+          <h4>Hours: 7pm-5am</h4>
+       </div>
+        <div class="col-md-4 worker-info">
+          <h2>Ents Runner <small>£74</small></h2>
+          <p>You will be escorting the entertainment acts around the May Ball. You will have to make sure the timetable is adhered to and provide a warm welcome. You may also have to help cater to the requirements of the headliners. No previous experience is required.</p>
+          <h4>Hours: 7:30pm-5am</h4>
+        </div>
+      </div>
+      <div class="row is-table-row">
+        <div class="col-md-4 worker-info">
+          <h2>General Worker <small>£82</small></h2>
+          <p>General workers will help with a range of tasks during the night under supervision of the Area Co-ordinator. Tasks will vary depending on requirements on the night. No previous experience is required.</p>
+          <h4>Hours: 7pm-5:30am</h4>
+        </div>
+        <div class="col-md-4 worker-info">
+          <h2>Drinks Worker <small>£82</small></h2>
+          <p>You will be making and serving drinks to guests, and potentially working alongside professional bar staff learning to mix cocktails, as well as restocking the bars at the ball. No previous experience is required.</p>
+          <h4 class="low">Hours: 7pm-5:30am</h4>
+       </div>
+        <div class="col-md-4 worker-info">
+          <h2>Food Worker <small>£82</small></h2>
+          <p>Food workers will work alongside professional caterers to serve the guests and ensure that food stalls are well stocked and running smoothly. No previous experience required.</p>
+          <h4>Hours: 7pm-5:30am</h4>
+        </div>
+      </div>
+      <div class="row is-table-row">
+        <div class="col-md-4 worker-info">
+          <h2>Head Lugger <small>£145</small></h2>
+          <p>You will be in charge of both the set up and the clear up of the ball. You will have to attend a training day (probably in the week leading up to the ball) to learn where everything used during the ball is stored. Pre/post ball you will supervise teams of workers in order to facilitate an efficient set up and clear up the grounds.</p>
+          <p>You need to be organised, efficient and have good leadership qualities. Due to the importance of this role, previous experience is highly desirable.</p>
+          <p>You cannot attend any ball on the Monday night.</p>
+          <h4>Hours: 11am-7.30pm on the 18th June and 5am-12pm on the 19th June</h4>
+        </div>
+        <div class="col-md-4 worker-info">
+          <h2>Setup Worker <small>£65</small></h2>
+          <p>Set up workers will help with pre-ball set up tasks under the supervision of the head lugger and may require heavy lifting (if you have any concerns about this, please get in touch). Queue jump will be given to those with a ticket to CMB.</p>
+          <h4>Hours: 11am-7.30pm on the 18th June</h4>
+       </div>
+        <div class="col-md-4">
+          <h2>Clearup Worker <small>£55</small></h2>
+          <p>Clear up workers will help with post-ball clear up tasks, under the supervision of the head lugger and may require heavy lifting (if you have any concerns about this, please get in touch).</p>
+          <p>You cannot attend any ball on the Monday night.</p>
+          <h4>Hours: 5am-12pm on the 19th June</h4>
+        </div>
+      </div>
+      <h4>Applications to work both set-up and clear-up will be considered, please do make this clear on your application form.</h4>
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2018 Clare May Ball Committee &middot;</p>
+      </footer>
+    </div> <!-- /container -->
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>

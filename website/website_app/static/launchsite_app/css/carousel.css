@@ -5,7 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
-  background-image: url("../img/starsbackground.png");
+  background-color: #181818;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -15,8 +15,9 @@ body {
 .btn{
   margin:8px 2px; /*Change to alter position of social media icons within navbar */
 }
-.navbar-brand{
-  padding:11px 2px 0 0;
+
+.navbar-brand > img {
+    margin-top: -5px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -72,12 +73,12 @@ body {
   margin-left: 10px;
 }
 
-.row {
-  background-color: white;
+.row.featurette {
+  background-color: #FFFFFF;
 }
 
 .holding-box {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   padding: 20px 0 20px;
 }
@@ -106,13 +107,56 @@ body {
 
 /* COMMITTEE SECTION
 -------------------------------------------------*/
-.holding-box-title.row {
+.holding-box-title. {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .com-name{
   margin:0 0 20px 0;
+}
+
+/* MAKING EMBEDDED VIDEO RESPONSIVE */
+.iframe-holder {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.iframe-holder iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* WORKERS PAGE */
+.job-descriptions {
+    color: white;
+}
+
+/* CONTACT PAGE */
+
+.info {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.info > h1, label {
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.info li {
+    color: white;
+}
+
+input {
+    color: black;
 }
 
 
@@ -149,6 +193,10 @@ body {
   }
   .row {
     width: 970px;
+  }
+  .featurette {
+    display: flex;
+    align-items: center;
   }
 }
 
