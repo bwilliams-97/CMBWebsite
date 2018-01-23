@@ -16,8 +16,83 @@ body {
   margin:8px 2px; /*Change to alter position of social media icons within navbar */
 }
 
-.navbar-brand > img {
+.mayball_logo{
+	margin: 0;
+	padding: 0;
+	padding-right:2px;
+}
+
+@media (max-width: 991px) { /*Collapses the navbar at a larger width than default*/
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+.navbar-brand > img { 
     margin-top: -5px;
+}
+
+.navbar{
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color:white;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.navbar-default .navbar-toggle{
+	border-color:#FFFAF0
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #3333cc; /* Changes regular toggle color */
+}
+.navbar-default .navbar-toggle .icon-bar:hover {
+  background-color: #fff; /* Changes toggle color on hover */
+}
+
+
+@media(max-width: 1000px){
+    .navbar > .container { max-width: 100%; padding: 0; }
+	.navbar-collapse { background:rgba(0,0,0,0.5);} 
+}
+
+.navbar-default
+.navbar-nav>li>a{
+	color:white;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -26,7 +101,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-top: 30px;
+  margin-top: -20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
