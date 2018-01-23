@@ -10,10 +10,10 @@ from .forms import ContactForm
 # Create your views here.
 
 def home(request):
-    return render(request, 'launchsite_app/index.html')
+    return render(request, 'website_app/index.html')
 
 def workers(request):
-    return render(request, 'launchsite_app/workers.html')
+    return render(request, 'website_app/workers.html')
 
 
 def contact(request):
@@ -49,8 +49,8 @@ def contact(request):
         form = ContactForm()
 
     #Also catches the 'form is invalid' case
-    return render(request, 'launchsite_app/contact.html', {'form': form})
+    return render(request, 'website_app/contact.html', {'form': form})
 
 def contact_success(request):
-    return render(request, 'launchsite_app/contact_success.html')
+    return render(request, 'website_app/contact_success.html')
 
