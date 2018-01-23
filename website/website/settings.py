@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'k)(=&nj)wc2px5$sp^z4-(+f4=^k0g+#o2#u*c(ar8b_*j=0es'
+SECRET_KEY = '4j&ag0ue%pvg!mqp6fs3ddw_wp2n(0k^#$odq5cyxhed@&o)%y        '
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smartswipe.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website_app'
+    'website_app',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +120,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+EMAIL_HOST = 'mail.retrosnub.co.uk'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'mailer@claremayball.com'
+EMAIL_HOST_PASSWORD = os.environ['DJANGO_EMAIL_PASSWORD']
+EMAIL_USE_TLS = True
