@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4j&ag0ue%pvg!mqp6fs3ddw_wp2n(0k^#$odq5cyxhed@&o)%y        '
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['smartswipe.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
