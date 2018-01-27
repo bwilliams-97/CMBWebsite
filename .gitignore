@@ -3,7 +3,7 @@ env_launch/*
 *.pyc
 __pycache__
 *.settings.py
-/launchsite/static/*
-/launchsite/launchsite/settings.py
-/launchsite/launchsite/wsgi.py
+/website/static/*
+/website/website/settings.py
+/website/website/wsgi.py
 *.sqlite3

@@ -28,6 +28,9 @@
   <!-- Custom styles for this template -->
   <link href="{% static 'website_app/css/jumbotron.css' %}" rel="stylesheet"/>
   <link href="{% static 'website_app/css/carousel.css' %}" rel="stylesheet"/>
+  
+  <!--Script for animations-->
+  <script src="{% static 'website_app/js/animations.js' %}"></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -52,33 +55,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <a class="navbar-brand" href="#">
+		  <a class="btn mayball_logo" href="#">
 			<img src="{% static 'website_app/img/logo.png' %}"></img> <!-- homepage icon -->
 		  </a>
 		  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/claremayball2018">
-        <span class="fa fa-facebook"></span>
-      </a>
-      <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/claremayball2018">
-        <span class="fa fa-instagram"></span>
-      </a>
-      </div>
+				<span class="fa fa-facebook"></span>
+		  </a>
+		  <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/claremayball2018">
+			<span class="fa fa-instagram"></span>
+          </a>
+        </div>
 		<div class="collapse navbar-collapse" id = "cmbNavbar">
 			<ul class="nav navbar-nav pull-right">
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-                        <li><a href="#launch">Launch Party</a></li>
-						<li><a href="#history">CMB 2018</a></li>
-                        <li><a href="#infocols">Tickets</a><li>
-                        <li><a href="#infocols">Ents</a></li>
-                        <li><a href="#infocols">Workers</a></li>
-                        <li><a href="#lastyear">CMB 2017</a></li>
-                        <li><a href="#sponsorship">Sponsorship</a></li>
-						<li><a href="#committee">Committee</a></li>
-
-					</ul>
-				</li>
+                <li><a href="#infocols">Tickets</a><li>
+                <li><a href="#infocols">Ents</a></li>
+                <li><a href="#infocols">Workers</a></li>
+                <li><a href="#lastyear">CMB 2017</a></li>
+                <li><a href="#sponsorship">Sponsorship</a></li>
+				<li><a href="#committee">Committee</a></li>
 				<li><a href="{% static 'website_app/assets/legal.pdf' %}">Legal</a></li>
 				<li><a href = "/contact">Contact</a></li>
 			</ul>
@@ -157,9 +151,9 @@
         </div>
       </div>
 
-      <hr class='featurette-divider'>
+      <hr id="lastyear" class='featurette-divider'>
       
-      <div id="lastyear" class="holding-box">
+      <div class="holding-box">
         <div class="row featurette">
           <div class="col-md-6">
       			<div class="iframe-holder">
@@ -176,9 +170,9 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr id="history" class="featurette-divider">
 
-      <div id="history" class="holding-box">
+      <div class="holding-box">
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Clare May Ball</h2>
@@ -194,9 +188,9 @@
         </div>
       </div>
 
-      <hr class='featurette-divider'>
+      <hr id="infocols" class='featurette-divider'>
 
-      <div id="infocols" class = "holding-box">
+      <div class = "holding-box">
         <div class="row">
           <div class="col-lg-6">
             <img class="img-circle center-block" src="{% static 'website_app/img/ents_thumbnail.png' %}" alt="Generic placeholder image" width="140" height="140">
@@ -215,10 +209,9 @@
         </div><!-- /.row -->
       </div><!-- /.holding-box -->
 
+      <hr id="sponsorship" class="featurette-divider">
 
-      <hr class="featurette-divider">
-
-      <div id="sponsorship" class="holding-box">
+      <div class="holding-box">
         <div class="row featurette">
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" src="{% static 'website_app/img/Sponsorship.jpg' %}" alt="sponsorship image">
@@ -236,11 +229,11 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr id = "committee" class="featurette-divider">
 
 	  <!-- Committee section
 	  ====================================-->
-	  <div id = "committee" class = "holding-box text-center">
+	  <div class = "holding-box text-center">
 			<div class = "holding-box-title row">
 				<h1>2018 Committee</h1>
 			</div>
@@ -322,7 +315,13 @@
 				</div>
 				<div class = "col-md-2 col-sm-6"></div>
 				<div class = "col-md-2 col-sm-6"></div>
-			</div>
+				
+				<div class = "col-md-12 col-sm-12">
+					<p><strong>Legal</strong><p>
+					<h3 class="com-name">Jacob Meagher</h3>
+				</div>
+
+				</div>
 			<div class="row holding-box-title">
 					<h2>Design Team</h2>
 			</div>
