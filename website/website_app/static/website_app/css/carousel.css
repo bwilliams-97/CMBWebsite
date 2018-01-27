@@ -65,7 +65,7 @@ featurette-heading {
 	margin-right:20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #3333cc; /* Changes regular toggle color */
+  background-color: indigo; /* Changes regular toggle color */
 }
 .navbar-default .navbar-toggle .icon-bar:hover {
   background-color: #fff; /* Changes toggle color on hover */
