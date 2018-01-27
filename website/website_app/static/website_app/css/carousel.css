@@ -140,6 +140,11 @@ body {
   letter-spacing: -1px;
 }
 
+.p>.cobra-text{
+	font-size:10px;
+	background-color:blue;
+}
+
 /* COMMITTEE SECTION
 -------------------------------------------------*/
 .holding-box-title. {
