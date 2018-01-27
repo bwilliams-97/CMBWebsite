@@ -76,6 +76,10 @@ featurette-heading {
 	color:white;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#FFD700;
+}
+
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
@@ -170,16 +174,22 @@ featurette-heading {
   letter-spacing: -1px;
 }
 
-.p>.cobra-text{
-	font-size:10px;
-	background-color:blue;
+.cobra-text{
+	text-align:left;
 }
 
+.cobra-separator{
+	border-color:#013E14;
+}
 /* COMMITTEE SECTION
 -------------------------------------------------*/
 .holding-box-title. {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.committee-hr{
+	border-color:indigo;
 }
 
 .com-name{
