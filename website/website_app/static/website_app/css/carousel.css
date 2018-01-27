@@ -80,6 +80,15 @@ featurette-heading {
 	color:#FFD700;
 }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: indigo;
+    border-color: indigo;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
