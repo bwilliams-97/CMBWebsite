@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -8,7 +10,28 @@ body {
   background-color: #181818;
   background-size: cover;
   background-attachment: fixed;
+  font-family: Merriweather;
+
 }
+
+/* FONTS */
+@font-face {
+font-family: "RomanSD";
+src: url("css/fonts/roman_sd-webfont.eot");
+src: 
+url("css/fonts/roman_sd-webfont.woff") format("woff"),
+url("css/fonts/roman_sd-webfont.svg#filename") format("svg");
+}
+
+
+carousel-caption > h1 {
+  font-family: 'RomanSD';  
+}
+
+featurette-heading {
+    font-family: Georgia;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 ------------------------------------------------- */
@@ -253,6 +276,10 @@ input {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+  }
+  
+  .carousel-caption > h1 {
+    font-size: 70px;
   }
 
   .featurette-heading {
