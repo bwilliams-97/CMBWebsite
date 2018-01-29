@@ -6,5 +6,4 @@ urlpatterns = [
     url(r'^workers/$', views.workers, name='workers'),
     url(r'^contact/$', views.contact, name='contact'),
     url(r'^contact_success/$', views.contact_success, name='contact_success'),
-    url(r'^ticketing/$', views.ticketing, name='ticketing'),
 ]

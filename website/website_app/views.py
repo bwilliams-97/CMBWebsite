@@ -15,9 +15,6 @@ def home(request):
 def workers(request):
     return render(request, 'website_app/workers.html')
 
-def ticketing(request):
-    return render(request, 'website_app/ticketing.html')
-
 
 def contact(request):
     if request.method == 'POST':
