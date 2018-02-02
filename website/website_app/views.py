@@ -14,6 +14,9 @@ def home(request):
 
 def workers(request):
     return render(request, 'website_app/workers.html')
+    
+def ticketing(request):
+    return HttpResponseRedirect("https://ticketing.claremayball.com")
 
 
 def contact(request):
